@@ -38,7 +38,7 @@
 }
 
 body {
-  background-color: powderblue;
+  background-color: #efeec2;
   font-family: 'EB Garamond'; font-size: 22px;
   margin: 0;
 }
@@ -59,8 +59,6 @@ body {
   color: white;
   text-align: center;
   font-size: 44px;
-  line-height: 25px;
-  border-radius: 4px;
 }
 
 .header-small .name {
