@@ -1,4 +1,4 @@
-t$(document).ready(function(){
+$(document).ready(function(){
 
 	/* redraws a string, character by character, given a div tag with 
 	title="string" and a list of letter divs contained in the word. */
