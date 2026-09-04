@@ -54,6 +54,15 @@ body {
   border-radius: 4px;
 }
 
+.header .letter {
+  float: left;
+  color: white;
+  text-align: center;
+  font-size: 44px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
 .header-small .name {
   float: left;
   color: white;
