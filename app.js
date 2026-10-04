@@ -30,7 +30,7 @@ $(document).ready(function(){
 			$(".mobile-nav").animate({height: "0%"}, 250);
 			open = false;
 		} else if (open === false) {
-			$(".mobile-nav").animate({height: "85%"}, 250);
+			$(".mobile-nav").animate({height: "84%"}, 250);
 			open = true;
 		} else {
 			alert("Error");
@@ -40,11 +40,20 @@ $(document).ready(function(){
 
 	/* Random image button */
 	const imgsrcs = ["leo2.jpg", "leo3.jpg", "leo4.jpg", "leo5.jpg", "leo6.jpg", "leo7.jpg", "leo8.jpg", "leo9.jpg"];
+	var lastIndex = -1;
 
 	$(".random-image").click(function(){
+		
 		var index = Math.floor(Math.random()*imgsrcs.length);
+		if (index === lastIndex) {
+			index = (index + 1) % imgsrcs.length;
+		};
+
 		document.getElementById("random-image").src = imgsrcs[index];
 		document.getElementById("random-image").title = imgsrcs[index];
+		document.getElementById("random-image-mobile").src = imgsrcs[index];
+		document.getElementById("random-image-mobile").title = imgsrcs[index];
+		lastIndex = index;
 	});
 
 
