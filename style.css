@@ -68,13 +68,17 @@ body {
   border-radius: 4px;
 }
 
+.header-small {
+  height: 15%;
+}
+
 .header-small .name {
   float: center;
   color: white;
   text-align: center;
   padding: 64px;
-  font-size: 64px;
-  line-height: 48px;
+  font-size: 50px;
+  line-height: 25%;
   border-radius: 4px;
 }
 
