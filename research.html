@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <!-- META -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- JQUERY -->
+    <script
+        src="https://code.jquery.com/jquery-4.0.0.min.js"
+        integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao="
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- FONTS -->
+
+    <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+
+    <!-- MATHJAX -->
+
+    <script>
+    MathJax = {
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]}
+      }
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script>
+
+    <!-- TITLE -->
+    <title>Jackson Young | Mathematics</title>
+
+  </head>
+
+  <body>
+    <div class="header">
+        <div id="name" class="name" title="Jackson Young">
+          <div id="name0" class="letter"><b style="font-family: Caveat">J</b></div>
+          <div id="name1" class="letter"><b style="font-family: Caveat">a</b></div>
+          <div id="name2" class="letter"><b style="font-family: Caveat">c</b></div>
+          <div id="name3" class="letter"><b style="font-family: Caveat">k</b></div>
+          <div id="name4" class="letter"><b style="font-family: Caveat">s</b></div>
+          <div id="name5" class="letter"><b style="font-family: Caveat">o</b></div>
+          <div id="name6" class="letter"><b style="font-family: Caveat">n</b></div>
+          <div id="name7" class="letter"><b style="font-family: Caveat">&nbsp;</b></div>
+          <div id="name8" class="letter"><b style="font-family: Caveat">Y</b></div>
+          <div id="name9" class="letter"><b style="font-family: Caveat">o</b></div>
+          <div id="name10" class="letter"><b style="font-family: Caveat">u</b></div>
+          <div id="name11" class="letter"><b style="font-family: Caveat">n</b></div>
+          <div id="name12" class="letter"><b style="font-family: Caveat">g</b></div>
+        </div>
+        <div class="header-right">
+          <div class="link"><a class="btn" href="index.html">HOME</a></div>
+          <div class="link"><a class="btn" href="research.html">RESEARCH</a></div>
+          <div class="link"><a class="btn" href="newpage.html">TEACHING</a></div>
+          <div class="dropdown">
+            <button class="dropbtn">MISC</button>
+            <div class="dropdown-content">
+              <a href="newpage.html">NOTES</a>
+              <a href="https://github.com/orgs/jacksonyoung-math/repositories">GITHUB</a>
+              <a href="newpage.html">BOOKS</a> 
+              <a href="newpage.html">CAT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Mobile header! -->
+
+    <div class="header-small">
+        <div id="mobile-name" class="name" title="Jackson Young"><b style="font-family: Caveat">Jackson Young</b></div>
+    </div>
+
+<!-- ---------------- -->
+
+<main>   
+
+  <div class="left">
+     <img src="headshot.jpeg" style="width: 80%; padding: 10% 10% 10% 10%; border-radius:100%;" class="image"> 
+     <ul style="list-style: none">
+      <li> <b style="font-family:EB Garamond; font-size:28px;text-align:left"> Jackson Young
+     </b> </li>
+      <li><p style="font-family:EB Garamond; font-size:16px;text-align:left"> email: jyoung48 [at] asu.edu
+     </p></li>
+     </ul>
+     <ul style="list-style: none">
+        <li><p style="font-family:EB Garamond; font-size:16px;text-align:left; text-decoration: underline;">OFFICE HOURS FALL 2026</p></li>
+        <li><p style="font-family:EB Garamond; font-size:16px;text-align:left">Tuesday/Thursday 9:30am - 11:00am</p></li>
+        <li><p style="font-family:EB Garamond; font-size:16px;text-align:left">(or by appt.)</p></li>
+      </ul>
+   </div>
+
+  <div class="middle">
+    <div class="textblock">
+      <div class="newspaper" style="font-family: Courier; text-align: center">ABOUT ME</div>
+      <div class="newspaper-line"></div>
+      <p>Hello! I'm Jackson Young, a Mathematics Ph.D. student in my fourth year at Arizona State University. In 2023, I completed my B.S. in Mathematics at Rensselaer Polytechnic Institute in Troy, New York with a minor in computer science. That fall, I began studying at ASU, working under the supervision of Julien Paupert. My research generally concerns geometric structures, symmetric spaces, discrete groups, and arithmetic lattices. You can find a copy of my CV <a href="JacksonYoung.pdf">here</a>. When I'm not doing math, I enjoy hiking, music, drawing, and reading. (And, I'd be remiss not to mention spending time with my cat Leo). Welcome to my web page!</p>
+
+      <div class="newspaper" id="research" style="font-family: Courier; text-align: center">RESEARCH</div>
+      <div class="newspaper-line-static"></div>
+      <p>My research, broadly, is focused on arithmetic lattices and hyperbolic geometry. An <i>arithmetic lattice</i> can be thought of as the integer points of a matrix group with finite covolume. Classic examples include <math><mmultiscripts><mi>&#x211D;</mi><mi></mi><mi>n</mi></mmultiscripts></math>/<math><mmultiscripts><mi>&#x2124;</mi><mi></mi><mi>n</mi></mmultiscripts></math>, which quotients to the <math>n</math>-torus, and the <math>n &times; n</math> determinant-1 matrices <math>SL(n; &#x2124;)</math> in <math>SL(n; &#x211D;)</math>. On the other hand, <i>hyperbolic geometry</i> is the geometry of negatively curved spaces. The geometric structures of hyperbolic and complex hyperbolic geometry provide a rich array of arithmetic lattices to study and learn from. Right now, I am thinking about how to get group presentations for certain arithmetic lattices in the context of complex hyperbolic geometry; that is, lattices in the group of isometries of complex hyperbolic 2-space <math><mmultiscripts><mi>H</mi>&#x2102;</mi><mi>2</mi></mmultiscripts></math>.</p>
+      
+
+      <div class="newspaper-sub" id="papers">PAPERS</div>
+      <ul style="line-height: 32px;">
+        <li><i>Presentations for Picard modular groups.</i> Coming soon!</li>
+      </ul>
+
+      <div class="newspaper-sub" id="talks">TALKS GIVEN</div>
+      <p> A complete list of the talks I've given. </p>
+      <ul style="line-height: 44px;">
+        <li> "Presentations for the sisters of euclidean Picard modular groups". Geometry, Topology, and Algebra Graduate Conference. Temple University, May 2026.</li>
+      </ul>
+
+      <div class="newspaper" id="teaching">TEACHING</div>
+      <div class="newspaper-line-static"></div>
+      A complete list of my past, and current, teaching assignments.
+      <ul style="line-height: 44px;">
+        <li>(TA) MAT 501: Geometry and Topology of Manifolds I, Fall 2026.</li>
+        <li>(Recitation TA) MAT 272: Calculus w/ Analytic Geometry III, Spring 2026.</li>
+        <li>(TA) MAT 501: Geometry and Topology of Manifold I, Fall 2025.</li>
+        <li>(Instructor) MAT 265: Calculus For Engineers I, Summer 2025</li>
+        <li>(Recitation TA) MAT 272: Calculus w/ Analytic Geometry III, Spring 2025</li>
+        <li>(TA) MAT 501: Geometry and Topology of Manifold I, Fall 2024.</li>
+        <li>(Instructor) MAT 265: Calculus For Engineers I, Summer 2024</li>
+        <li>(MATLAB TA) MAT 343: Applied Linear Algebra, Spring 2024</li>
+        <li>(Recitation TA) MAT 271: Calculus w/ Analytic Geometry II, Fall 2023</li>
+
+      </ul>
+
+      <div class="newspaper" id="notes" style="font-family: Courier; text-align: center">NOTES</div>
+      <div class="newspaper-line-static"></div>
+        <ul style="line-height: 32px;">
+          <li> Check back soon for more of my notes!</li>
+      </ul>
+
+
+      <p style="font-size: 14px; text-align: center;">The use of this webspage (or any information found herein) for the training of generative aritifical intelligence technologies is strictly forbidden.</p>
+      </div>
+    </div>
+  </div>
+  <div class="right">
+    <div class="newsblock">
+      <p style="font-size: 24px; text-decoration: underline; text-align: center; font-family: Courier">RECENT TRAVEL</p>
+    <ul>
+      <li><a href="https://sites.google.com/temple.edu/gtaphiladelphia2026">GTA Graduate Conference</a>, Temple University, May 2026</li>
+      <li><a href="https://www.slmath.org/workshops/1125">Introductory Workshop</a>, SLMath, January 2026</li>
+      <li><a href="https://www.slmath.org/workshops/1124">Pathways Workshop</a> SLMath, January 2026</li>
+      <li><a href="https://www.crmath.ca/en/activities/#/type/activity/id/4016">Hyperbolic Manifolds in Dimensions Four (And More)</a>, CRM, September 2025</li>
+      <li><a href="https://www.slmath.org/summer-schools/1105">Summer School</a>, SLMath, July 2025</li>
+      <li><a href="https://cst.temple.edu/department-mathematics/events/gta-philadelphia">GTA Graduate Conference</a>, Temple University, May 2025</li>
+      <li><a href="https://www.ams.org/meetings/sectional/2304_program.html">AMS Fall Western Sectional Meeting</a>, UC Riverside, October 2024</li>
+    </ul>
+  </div>
+  </div>
+
+<!-- MOBILE VERSION -->
+
+  <div class="mobile-body">
+
+      <div class="mobile-nav">
+        <ul id="mobile-nav-menu" style="list-style:none">
+          <li><div class="mobile-nav-button"><a href="index.html">HOME</a></div></li>
+          <li><div class="mobile-nav-button"><a href="research.html">RESEARCH</a></div></li>
+          <li><div class="mobile-nav-button"><a href="teaching.html">TEACHING</a></div></li>
+          <li><div class="mobile-nav-button"><a href="JacksonYoung.pdf">CIRRICULUM VITAE</a></div></li>
+          <li><div class="mobile-nav-button"><a href="https://github.com/orgs/jacksonyoung-math/repositories">GITHUB</a></div></li>
+          <li><div class="mobile-nav-button"><a href="cat.html">CAT</a></div></li>
+        </ul>
+      </div>
+
+      <img src="prismpicture.png" style="width: 90%; padding: 5% 0% 0% 5%" class="image"> 
+
+      <div><p style="font-size: 18px; text-align: center">Figure 1: Covering a fundamental prism in <span class="math">$H_\mathbb{C}^2$</span> with Cygan balls.</p></div>
+
+      <div style="height: 10px"></div>
+
+      <div class="mobile-line"></div>
+
+      <div style="margin-top: -20px; margin-bottom: -10px">
+        <p style="font-size:24px;text-align:left;padding: 0% 10% 0% 10%"> <b>email:</b> &nbsp; jyoung48 [at] asu.edu</p>
+        <p style="font-size:24px;text-align:left;margin-top:-20px; padding: 0% 10% 0% 10%"><b>office hours (fall 2026):</b> &nbsp; tues. & thurs. 9:30am&mdash;11:00am (or by appt.)</p>
+      </div>
+
+      <div class="mobile-line"></div>
+
+      <div class="mobile-textblock">
+        <p>My research, broadly, is focused at the intersection of arithmetic lattices and hyperbolic geometry. A <i>lattice</i> is a discrete subgroup (of a semisimple Lie group) having finite covolume. An <i>arithmetic lattice</i> is a lattice that is in some sense the "integer points" of a semisimple Lie group. For example, <span class="math">$\mathbb{Z}^n < \mathbb{R}^n$</span> is arithmetic, because its quotient is the <span class="math">$n$</span>-torus, which is compact and thus finite volume. A more complicated example is the special linear group <span class="math">$\text{SL}(n; \mathbb{Z})$</span> in <span class="math">$\text{SL}(n; \mathbb{R})$. On the other hand, <i>hyperbolic geometry</i> is the geometry of negatively curved spaces. There is a lot of rich geometric information that falls out of this largely number-theoretic construction, especially when the symmetric space it lives in is negatively curved. The geometric structures of hyperbolic and complex hyperbolic geometry provide a rich array of arithmetic lattices to study and learn from. Right now, I am thinking about how to get group presentations for certain arithmetic lattices in the context of complex hyperbolic geometry; that is, lattices in the group of isometries of complex hyperbolic <span class="math">$2$</span>-space <span class="math">$H_\mathbb{C}^2$</span>.
+      </div>
+
+      <p style="text-align: center; font-family: Courier">PAPERS</p>
+      <div class="mobile-line"></div>
+      <ul style="line-height: 32px;">
+        <li><i>Presentations for sisters of Euclidean Picard modular groups.</i> (In preparation)</li>
+      </ul>
+
+      <p style="text-align: center; font-family: Courier">TALKS</p>
+      <div class="mobile-line"></div>
+      <ul style="line-height: 32px; padding-right: 1%">
+        <li> "Presentations for sisters of euclidean Picard modular groups". <br/> <span style="font-size: 20px"> <b> Geometry and Topology Seminar.</b> Arizona State Universoty, October 2026. (Upcoming)</span> </li>
+        <li> "Presentations for the sisters of euclidean Picard modular groups". <br/> <span style="font-size: 20px"> <b> Geometry, Topology, and Algebra Graduate Conference.</b> Temple University, May 2026.</span></li>
+      </ul>
+
+    <div class="mobile-line"></div>
+
+    <p style="font-size: 14px; text-align: center">The use of this webspage (or any information found herein) for the training of generative aritifical intelligence technologies is strictly forbidden.</p>
+
+  </div>
+
+
+    </main>
+  </body>
+
+</html>
+
