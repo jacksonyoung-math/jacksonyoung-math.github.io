@@ -274,47 +274,55 @@ main {
 
 
 @media only screen and (min-width: 1079px){
-.header {
-  display: visible;
-  overflow: visible; 
-  padding: 4px 4px;
-  background-color: #152559;
-  color: white;
-  font-family: 'Courier';
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
 
-.header-small {
-  display: none;
-}
+  .header {
+    display: visible;
+    overflow: visible; 
+    padding: 4px 4px;
+    background-color: #152559;
+    color: white;
+    font-family: 'Courier';
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
 
-.left {
-  flex: 0 0 20%;
-  margin: 0;
-}
+  .header-small {
+    display: none;
+  }
 
-.middle {
-  flex: 1 1 auto;
-  margin: 0;
-}
+  .left {
+    flex: 0 0 20%;
+    margin: 0;
+    font-size: 18pt;
+  }
 
-.right {
-  flex: 0 0 20%;
-  margin: 0;
-}
+  .middle {
+    flex: 1 1 auto;
+    margin: 0;
+  }
 
-.mobile-body {
-  display: none;
-}
+  .right {
+    flex: 0 0 20%;
+    margin: 0;
+  }
+
+  .mobile-body {
+    display: none;
+  }
+
+  #name-left {
+    display: none;
+  }
 
 }
 
 @media only screen and (max-width: 1079px) and (min-width: 600px) {
+  
   .header {
-   display: none;
+    display: none;
   }
+  
   .header-small {
     display: visible;
     overflow: visible; 
@@ -327,22 +335,44 @@ main {
     z-index: 10;
   }
 
-.left {
-  flex: 0 0 20%;
-  margin: 0;
-}
+  .left {
+    flex: 0 0 20%;
+    margin: 0;
+  }
 
-.middle {
-  display: none;
-}
+  .middle {
+    display: none;
+  }
 
-.right {
-  display: none;
-}
+  .right {
+    display: none;
+  }
 
-.mobile-body {
-  display: visible;
-}
+  .mobile-body {
+    background-color: #e3dbf9;
+    display: visible;
+  }
+
+  #mobile-headshot {
+    display: none;
+  }
+
+  .med-screen-padding {
+    display: visible;
+    height: 40px;
+  }
+
+  #info-bar-left {
+    display: none;
+  }
+
+  .mobile-nav {
+    width: 82%;
+  }
+
+  #list {
+    display: none;
+  }
 
 }
 
@@ -377,7 +407,12 @@ main {
   }
 
   .mobile-body {
+    background-color: #e3dbf9;
     display: visible;
+  }
+
+  .med-screen-padding {
+    display: none;
   }
 
 }

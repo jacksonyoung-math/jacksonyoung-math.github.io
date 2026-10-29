@@ -24,6 +24,7 @@
 
     <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- MATHJAX -->
 
@@ -75,7 +76,7 @@
 <!-- Mobile header! -->
 
     <div class="header-small">
-        <div id="mobile-name" class="name" title="Jackson Young"><b style="font-family: Caveat">Jackson Young</b></div>
+        <div id="mobile-name" class="name" title="Jackson Young"><b style="font-family: Caveat">Jackson Young <i style="margin-left: 5%" class="fa fa-bars"></i></b></div>
     </div>
 
 <!-- ---------------- -->
@@ -84,36 +85,36 @@
 
   <div class="left">
      <img src="headshot.jpeg" style="width: 80%; padding: 10% 10% 10% 10%; border-radius:100%;" class="image"> 
-     <ul style="list-style: none">
-      <li> <b style="font-family:EB Garamond; font-size:28px;text-align:left"> Jackson Young
-     </b> </li>
+     <div id="name-left" style="font-family:EB Garamond; font-size:24px;text-align:center; margin-left: 5%; margin-right: 5%"> <b>Jackson Young </b> </div>
+     <ul id="list" style="list-style: none">
+      <li> <div style="font-family:EB Garamond; font-size:28px;text-align:left"> <b>Jackson Young </b> </div></li>
    </ul>
       <div style="margin-top: -20px; margin-bottom: -10px; line-height: 20px">
-      <p style="font-size:16px;text-align:left;padding: 0% 10% 0% 10%"> <b>email:</b> &nbsp; jyoung48 [at] asu.edu</p>
-      <div style="height:5px"></div>
-      <p style="font-size:16px;text-align:left;margin-top:-20px; padding: 0% 10% 0% 10%"><b>office hours (fall 2026):</b> &nbsp; tues. & thurs. 9:30am&mdash;11:00am (or by appt.)</p>
+      <div id="info-bar-left">
+        <p style="font-size:16px;text-align:left;padding: 0% 10% 0% 10%"> <b>email:</b> &nbsp; jyoung48 [at] asu.edu</p>
+        <div style="height:5px"></div>
+        <p style="font-size:16px;text-align:left;margin-top:-20px; padding: 0% 10% 0% 10%"><b>office hours (fall 2026):</b> &nbsp; tues. & thurs. 9:30am&mdash;11:00am (or by appt.)</p>
       </div>
+    </div>
 
    </div>
-
   <div class="middle">
     <div class="textblock">
 
       <div class="newspaper-sub" id="research" style="font-family: Courier; text-align: center; padding-top: 150px">RESEARCH</div>
-      <p>My research, broadly, is focused at the intersection of arithmetic lattices and hyperbolic geometry. A <i>lattice</i> is a discrete subgroup (of a semisimple Lie group) having finite covolume. An <i>arithmetic lattice</i> is a lattice that is in some sense the "integer points" of a semisimple Lie group. For example, <span class="math">$\mathbb{Z}^n < \mathbb{R}^n$</span> is arithmetic, because its quotient is the <span class="math">$n$</span>-torus, which is compact and thus finite volume. A more complicated example is the special linear group <span class="math">$\text{SL}(n; \mathbb{Z})$</span> in <span class="math">$\text{SL}(n; \mathbb{R})$. On the other hand, <i>hyperbolic geometry</i> is the geometry of negatively curved spaces. There is a lot of rich geometric information that falls out of this largely number-theoretic construction, especially when the symmetric space it lives in is negatively curved. The geometric structures of hyperbolic and complex hyperbolic geometry provide a rich array of arithmetic lattices to study and learn from. Right now, I am thinking about how to get group presentations for certain arithmetic lattices in the context of complex hyperbolic geometry; that is, lattices in the group of isometries of complex hyperbolic <span class="math">$2$</span>-space <span class="math">$H_\mathbb{C}^2$</span>.
+      <p>My research, broadly, is focused at the intersection of the structure theory of arithmetic lattices and hyperbolic geometry. A <i>lattice</i> is a discrete subgroup (of a semisimple Lie group) having finite covolume. An <i>arithmetic lattice</i> is a lattice that is in some sense the "integer points" of a semisimple Lie group. For example, <span class="math">$\mathbb{Z}^n < \mathbb{R}^n$</span> is arithmetic, because its quotient is the <span class="math">$n$</span>-torus, which is compact and thus finite volume. A more complicated example is the special linear group <span class="math">$\text{SL}(n; \mathbb{Z})$</span> in <span class="math">$\text{SL}(n; \mathbb{R})$. On the other hand, <i>hyperbolic geometry</i> is the geometry of negatively curved spaces. There is a lot of rich geometric information that falls out of this largely number-theoretic construction, especially when the symmetric space it lives in is negatively curved. The geometric structures of hyperbolic and complex hyperbolic geometry provide a rich array of arithmetic lattices to study and learn from. My latest project is about how to get group presentations for certain arithmetic lattices in the context of complex hyperbolic geometry; that is, lattices in the group of isometries of complex hyperbolic <span class="math">$2$</span>-space <span class="math">$H_\mathbb{C}^2$</span>.
       
-
       <p style="text-align: center; font-family: Courier">PAPERS</p>
       <ul style="line-height: 32px;">
-        <li><i>Presentations for sisters of Euclidean Picard modular groups.</i> (In preparation)</li>
+        <li><i>Presentations for sisters of Euclidean Picard modular groups.</i> (<a href="arxiv.org">Preprint</a>). October 2026.</li>
       </ul>
 
       <p style="text-align: center; font-family: Courier">TALKS</p>
       <ul style="line-height: 32px; padding-right: 1%">
-        <li> "Presentations for sisters of Euclidean Picard modular groups". <br/> <span style="font-size: 20px"> <b> Geometry and Topology Seminar.</b> Arizona State University, October 2026. (Upcoming)</span> </li>
+        <li> "The geometry of one-cusped Picard modular groups". <br/> <span style="font-size: 20px"> <b> AMS Fall Western Sectional Meeting.</b> Arizona State University, November 2026 (Upcoming).</span> </li>
+        <li> "Presentations for sisters of Euclidean Picard modular groups". <br/> <span style="font-size: 20px"> <b> Geometry and Topology Seminar.</b> Arizona State University, October 2026.</span> </li>
         <li> "Presentations for the sisters of Euclidean Picard modular groups". <br/> <span style="font-size: 20px"> <b> Geometry, Topology, and Algebra Graduate Conference.</b> Temple University, May 2026.</span></li>
       </ul>
-
 
       <p style="font-size: 14px; text-align: center;">The use of this webspage (or any information found herein) for the training of generative aritifical intelligence technologies is strictly forbidden.</p>
       </div>
@@ -171,13 +172,14 @@
       <p style="text-align: center; font-family: Courier">PAPERS</p>
       <div class="mobile-line"></div>
       <ul style="line-height: 32px;">
-        <li><i>Presentations for sisters of Euclidean Picard modular groups.</i> (In preparation)</li>
+        <li><i>Presentations for sisters of Euclidean Picard modular groups.</i> (<a href="arxiv.org">Preprint</a>). October 2026.</li>
       </ul>
 
       <p style="text-align: center; font-family: Courier">TALKS</p>
       <div class="mobile-line"></div>
       <ul style="line-height: 32px; padding-right: 1%">
-        <li> "Presentations for sisters of Euclidean Picard modular groups". <br/> <span style="font-size: 20px"> <b> Geometry and Topology Seminar.</b> Arizona State University, October 2026. (Upcoming)</span> </li>
+        <li> "The geometry of one-cusped Picard modular groups". <br/> <span style="font-size: 20px"> <b> AMS Fall Western Sectional Meeting.</b> Arizona State University, November 2026 (Upcoming).</span> </li>
+        <li> "Presentations for sisters of Euclidean Picard modular groups". <br/> <span style="font-size: 20px"> <b> Geometry and Topology Seminar.</b> Arizona State University, October 2026.</span> </li>
         <li> "Presentations for the sisters of Euclidean Picard modular groups". <br/> <span style="font-size: 20px"> <b> Geometry, Topology, and Algebra Graduate Conference.</b> Temple University, May 2026.</span></li>
       </ul>
 

@@ -30,7 +30,7 @@ $(document).ready(function(){
 			$(".mobile-nav").animate({height: "0%"}, 250);
 			open = false;
 		} else if (open === false) {
-			$(".mobile-nav").animate({height: "84%"}, 250);
+			$(".mobile-nav").animate({height: "79.6%"}, 250);
 			open = true;
 		} else {
 			alert("Error");
