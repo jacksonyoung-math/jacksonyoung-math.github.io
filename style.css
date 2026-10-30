@@ -374,6 +374,10 @@ main {
     display: none;
   }
 
+  #mobile-name {
+    font-size: 40px;
+  }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -413,6 +417,10 @@ main {
 
   .med-screen-padding {
     display: none;
+  }
+
+  #mobile-name {
+    font-size: 40px;
   }
 
 }
